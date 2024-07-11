@@ -1,5 +1,5 @@
 {% set name = "colored-traceback" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/colored-traceback-{{ version }}.tar.gz
-  sha256: 6da7ce2b1da869f6bb54c927b415b95727c4bb6d9a84c4615ea77d9872911b05
+  sha256: b48ba2dcdd0c05316e8efb463f9b6ea548ce9ba9ee0bf1dd457468e531bd0a1e
 
 build:
   number: 0
